@@ -14,21 +14,12 @@ class CommunityPage extends StatelessWidget {
             'assets/lotties/community.json',
             height: 250.h,
           ),
-          SizedBox(
-            width: MediaQuery.of(context).size.width -
-                (MediaQuery.of(context).size.width / 2 / 3),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  'Introducing communities',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 25.sp,
-                      fontWeight: FontWeight.w600),
-                ),
-              ],
-            ),
+          Text(
+            'Introducing communities',
+            style: TextStyle(
+                color: Colors.white,
+                fontSize: 25.sp,
+                fontWeight: FontWeight.w600),
           ),
           SizedBox(
             height: 5.h,

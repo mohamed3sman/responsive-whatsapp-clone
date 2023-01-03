@@ -3,8 +3,9 @@ import 'package:watsapp_clone/constants/constants.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:watsapp_clone/mobile_pages/call_page.dart';
 import 'package:watsapp_clone/mobile_pages/chat_page.dart';
-import 'package:watsapp_clone/mobile_pages/community_page.dart';
 import 'package:watsapp_clone/mobile_pages/status_page.dart';
+
+import '../mobile_pages/community_page.dart';
 
 class MobileScaffold extends StatelessWidget {
   const MobileScaffold({super.key});
