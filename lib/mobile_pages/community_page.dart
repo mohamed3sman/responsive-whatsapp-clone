@@ -34,7 +34,7 @@ class CommunityPage extends StatelessWidget {
           MaterialButton(
             color: Colors.greenAccent.shade700,
             textColor: Colors.grey[900],
-            padding: EdgeInsets.symmetric(horizontal: 50.w, vertical: 10.h),
+            padding: EdgeInsets.symmetric(horizontal: 50.w, vertical: 12.h),
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
             onPressed: () {},
